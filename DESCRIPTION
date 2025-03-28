@@ -1,0 +1,20 @@
+Package: mptools
+Title: A collection of R utility functions for the Petljak lab
+Version: 0.0.0.9000
+Authors@R: 
+    person("Luka", "Culibrk", , "luka.culibrk@nyulangone.org", role = c("aut", "cre"))
+Description: A collection of R utility functions for the Petljak lab
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    data.table,
+    BSgenome.Hsapiens.UCSC.hg19,
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome.Mmusculus.UCSC.mm10,
+    ggplot2,
+    GenomicRanges,
+    cowplot,
+    ggfittext
+
